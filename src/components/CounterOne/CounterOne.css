@@ -1,0 +1,30 @@
+.outer-container {
+  background-color: #ff4500;
+  border: 1px solid #fff;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 80px;
+}
+.inner-container {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.number {
+  font-size: 40px;
+  font-weight: 600;
+}
+.btn {
+  grid-row: 2;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  font-size: 10px;
+  font-weight: 600;
+}
