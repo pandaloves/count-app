@@ -17,14 +17,14 @@
   gap: 8px;
 }
 .number {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 600;
 }
 .btn {
   grid-row: 2;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   margin: 1px;
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 600;
 }
